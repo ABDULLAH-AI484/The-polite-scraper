@@ -11,7 +11,8 @@ I requested `https://books.toscrape.com/robots.txt` once. It returned **HTTP 404
 **I will not reuse this code on another site without checking its rules and terms first.**
 
 file:///C:/Users/Mindwhiz/Videos/markmap.svg open this link 
-![alt text](image.png)
+<img width="1908" height="730" alt="Screenshot 2026-09-09 100222" src="https://github.com/user-attachments/assets/bcfb5a42-ac52-48df-8bd1-6bb5089d5181" />
+
 
 ## Quick start
 
@@ -25,7 +26,8 @@ python -m src.main
 
 The command discovers exactly three catalogue pages and writes `output/books.json`, `output/errors.json`, `output/books.csv`, and `output/run-report.json`. A second run mostly reads from `cache/` and remains idempotent: the JSON contains one record per canonical URL, not duplicates.
 
-![alt text](<Screenshot 2026-09-09 095823.png>)
+<img width="1917" height="1012" alt="Screenshot 2026-09-09 095823" src="https://github.com/user-attachments/assets/dea9aa4a-0099-4787-8d84-fc67c261e1e1" />
+
 
 To demonstrate failure isolation with a deliberately fake URL, use:
 
@@ -35,7 +37,8 @@ python -m src.main --include-fake
 
 The run still completes with the 60 good records and records one failed page in the report. The fake URL is never used to hammer the real site.
 
-![alt text](image-1.png)
+![Uploading Screenshot 2026-09-09 100259.png…]()
+
 
 
 ## Politeness rules
