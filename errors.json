@@ -1,0 +1,6 @@
+[
+  {
+    "url": "https://books.toscrape.com/catalogue/this-book-does-not-exist_404/index.html",
+    "reason": "RuntimeError: HTTP 404"
+  }
+]
