@@ -1,0 +1,9 @@
+__pycache__/
+.pytest_cache/
+*.py[cod]
+cache/
+output/books.csv
+output/errors.json
+output/books.json
+output/run-report.json
+.venv/
