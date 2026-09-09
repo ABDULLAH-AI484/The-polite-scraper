@@ -1,0 +1,18 @@
+{
+  "started_at": "2026-09-09T16:28:44.487794+00:00",
+  "duration_seconds": 4.421,
+  "catalogue_pages": 3,
+  "discovered_urls": 60,
+  "unique_urls": 60,
+  "pages_fetched": 0,
+  "cache_hits": 63,
+  "valid_records": 60,
+  "invalid_records": 1,
+  "failed_pages": 1,
+  "failures": [
+    {
+      "url": "https://books.toscrape.com/catalogue/this-book-does-not-exist_404/index.html",
+      "reason": "RuntimeError: HTTP 404"
+    }
+  ]
+}
